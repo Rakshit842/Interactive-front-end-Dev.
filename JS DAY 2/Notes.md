@@ -10,8 +10,4 @@ Interview Prepartion Questions
 1. What is JavaScript?
 2. Difference between var, let and const
 3. Difference between map, filter and redure 
-<<<<<<< HEAD
 4. Differnce between == and ===.
-=======
-4. Differnce between == and ===.
->>>>>>> 729821d7a491c5ab44e83a7f4d76aab8420457d5
