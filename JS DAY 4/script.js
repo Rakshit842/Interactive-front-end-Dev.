@@ -28,3 +28,4 @@ console.log(fruits3)
 let numbers3 = [1,2,3,4,5];
 let reversed = numbers3.reverse(0,4);
 console.log(reversed)
+
