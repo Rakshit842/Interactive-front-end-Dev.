@@ -29,3 +29,7 @@ let numbers3 = [1,2,3,4,5];
 let reversed = numbers3.reverse(0,4);
 console.log(reversed)
 
+// include
+let fruits4 = ["apple", "banana", "cherry"];
+let included = fruits4.includes("mango");
+console.log(included)
