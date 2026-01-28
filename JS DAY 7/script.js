@@ -11,7 +11,6 @@ console.log("My name is "+user.fullname+". My fav color is "+user.favcolor[0]);
 // string literals
 console.log(`My name is ${user.fullname}. My fav color is ${user.favcolor[2]}`);
 
-// object methods
 // nested object
 let user1 ={ 
     fullname: "Rakshit",
@@ -39,3 +38,30 @@ let user2 ={
     }
 }
 console.log(user2.demo())
+
+// object methods
+// Object.keys(variable name)
+console.log(Object.keys(user));
+console.log(Object.values(user));
+console.log(Object.entries(user));
+
+const car = {
+    make: "Mahindra", 
+    model: "Thar",
+};
+Object.seal(car) //we cant add a new key and value pair butwe can change or update the existing value
+// Object.freeze(car) //adding and updating cannot be done in key value pairs 
+car.model="XUV700"
+car.color = "zBlack";
+console.log(car);
+
+
+
+// Sem 2
+var a = 10;
+console.log(a);
+function demo(){
+    let b = 20;
+    console.log(b);
+}
+demo();
