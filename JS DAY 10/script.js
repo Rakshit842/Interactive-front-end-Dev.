@@ -19,5 +19,23 @@ container.appendChild(newParagraph);
 
 //Removing item
 const para = document.querySelector("#container p");
-para.remove(); //or
-document.querySelector("#conatiner p").remove();
+para.remove(); 
+
+
+let date = new Date()
+console.log(date);
+setTimeout(() => {
+    console.log("welcome");
+    // alert("Offer valid till 12 pm")
+}, 5000)
+setInterval(() => {
+    let date = new Date()
+    console.log(date);
+}, 1000)
+
+
+
+// Event handle
+function handleClick(){
+    document.getElementById("Output").textContent = "Button Clicked!"
+}
