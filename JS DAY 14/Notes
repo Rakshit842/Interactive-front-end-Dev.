@@ -1,0 +1,2 @@
+#TDZ(temperal dead zone)
+if we declare a variable with let and conts without its proper initialization so the variable will move to temperal dead zone until we declare and initialize it properly
